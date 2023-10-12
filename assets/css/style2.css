@@ -1,0 +1,108 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-image: url('../images/CLUBLOVE.png'); */
+  background-size: 1%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: black;
+  cursor: url('../images/cursor_flower.png'), auto;
+}
+
+.container {
+  padding: 2%;
+  width: 500%;
+  height: 500%;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+  grid-template-rows: 700px 700px 700px 700px; 
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+p {
+/* background-color: white; */
+padding-right: 2%;
+padding-left: 2%;
+}
+
+.text span {
+  background-color: white;
+  line-height: 1.2;
+}
+
+.src {
+  font-style: italic;
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.double_date {
+  grid-column: span 1;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.a_beauty {
+  grid-column: 1/ span 2;
+  grid-column-start: 2;
+  grid-row: 5 / 6;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.circuit {
+  grid-column: 1 / span 2;
+  grid-column-start: 3;
+  grid-row: 3 / 4;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.self {
+  grid-column: 1 / span 2;
+  grid-column-start: 3;
+  grid-row: 4 / 5;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.horribles {
+  grid-column: span 1;
+  grid-column-start: 1;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.digitalfolk {
+  grid-column: 1 / span 2;
+  grid-column-start: 4;
+  grid-row: 6 / 7;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.metame {
+  grid-column: span 1;
+  grid-column-start: 5;
+  grid-row: 2 / 3;
+}
+
+.peanut_museum {
+  grid-column: 1 / span 2;
+  grid-column-start: 5;
+  grid-row: 5 / 6;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
