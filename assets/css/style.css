@@ -8,6 +8,10 @@ body {
   align-items: center; /* Center vertically */
   flex-direction: column;
   background-color: rgb(234, 234, 234);
+  background-image: url('../images/background\ oval\ black.png');
+  background-size: 10%;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .container {
@@ -44,8 +48,8 @@ h1 {
 .plate{
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 45%;
   left: 50%;
   z-index: -5;
-  width: 60%;
+  width: 100%;
 }
