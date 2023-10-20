@@ -54,7 +54,6 @@ body {
 }
 
 p {
-/* background-color: white; */
 padding-right: 2%;
 padding-left: 2%; 
 }
@@ -243,7 +242,6 @@ img {
 
   background-color: blue;
   mix-blend-mode: difference;
-  /* z-index: +1; */
 }
 
 #minimap > div {

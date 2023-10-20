@@ -4,8 +4,8 @@ body {
   height: 100%;
   margin: 0;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center; 
+  align-items: center; 
   flex-direction: column;
   background-color: rgb(234, 234, 234);
   background-image: url('../images/background\ oval\ black.png');
@@ -15,11 +15,11 @@ body {
 }
 
 .container {
-  text-align: center; /* Center the text within the container */
+  text-align: center; 
 }
 
 .centered-text {
-  text-align: center; /* Center the text within its container */
+  text-align: center; 
   width: 50%;
   height: 30%;
 }
@@ -38,10 +38,10 @@ h1 {
 
 @keyframes rotate {
   0% {
-      transform: rotate(0deg); /* Start at 0 degrees */
+      transform: rotate(0deg); 
   }
   100% {
-      transform: rotate(360deg); /* End at 360 degrees (full rotation) */
+      transform: rotate(360deg);
   }
 }
 
