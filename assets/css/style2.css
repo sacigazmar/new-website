@@ -47,6 +47,7 @@ body {
   font-style: italic;
   font-weight: bold;
   mix-blend-mode: difference;
+  z-index: 10;
 }
 
 .musiclink {
@@ -212,7 +213,7 @@ img {
 
 .imaginary {
   grid-column: span 1;
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-row: 2/ 3;
 }
 
